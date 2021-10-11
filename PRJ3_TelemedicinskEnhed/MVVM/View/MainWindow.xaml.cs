@@ -28,6 +28,8 @@ namespace PRJ3_TelemedicinskEnhed
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
     }
 }
