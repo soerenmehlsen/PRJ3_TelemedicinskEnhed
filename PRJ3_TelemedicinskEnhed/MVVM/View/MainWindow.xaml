@@ -5,7 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PRJ3_TelemedicinskEnhed"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Login" 
+        Height="630" 
+        Width="550" 
+        Background="Transparent" 
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        MouseDown="LoginWindow_MouseDown">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/assets/icons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
     <Grid>
 
     </Grid>
